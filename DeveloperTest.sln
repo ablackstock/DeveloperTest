@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{419200EC-397E-4BAE-A9F6-92D567375859}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFixtures", "TestFixtures\TestFixtures.csproj", "{FE6C2007-46F4-4619-9A35-8396F879718E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{A29EB636-B060-42A2-B7F1-56719B4F176D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{419200EC-397E-4BAE-A9F6-92D567375859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{419200EC-397E-4BAE-A9F6-92D567375859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{419200EC-397E-4BAE-A9F6-92D567375859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{419200EC-397E-4BAE-A9F6-92D567375859}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE6C2007-46F4-4619-9A35-8396F879718E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE6C2007-46F4-4619-9A35-8396F879718E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE6C2007-46F4-4619-9A35-8396F879718E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE6C2007-46F4-4619-9A35-8396F879718E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A29EB636-B060-42A2-B7F1-56719B4F176D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A29EB636-B060-42A2-B7F1-56719B4F176D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A29EB636-B060-42A2-B7F1-56719B4F176D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A29EB636-B060-42A2-B7F1-56719B4F176D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
