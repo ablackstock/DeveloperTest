@@ -26,6 +26,10 @@
 
 #endregion
 
+using System;
+using System.Collections.Generic;
+using Client.Controllers;
+using Client.Models;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace TestFixtures.Controllers
@@ -59,11 +63,30 @@ namespace TestFixtures.Controllers
         #region Tests
 
         [TestMethod]
-        public void TestMethod1()
+        public void CanGetOverdueUserTasks()
         {
-            //
-            // TODO: Add test logic	here
-            //
+            var list = new List<TaskHeader>
+                           {
+                               new TaskHeader {TaskId = 1, Description = "Test1", StartDate = DateTime.Today, UserName = "ME"},
+                               new TaskHeader {TaskId = 2, Description = "Test2", StartDate = DateTime.Today.AddDays(5), UserName = "ME"},
+                               new TaskHeader {TaskId = 3, Description = "Test3", StartDate = DateTime.Today.AddDays(-7), UserName = "YOU"},
+                               new TaskHeader {TaskId = 4, Description = "Test4", StartDate = DateTime.Today.AddDays(-10), UserName = "HER"},
+                               new TaskHeader {TaskId = 5, Description = "Test5", StartDate = DateTime.Today.AddDays(-10), UserName = "YOU"},
+                           };
+
+            var c = new TaskHeaderController();
+            var result = c.GetOverdueUserTasks(list, "YOU");
+
+            Assert.AreEqual(1, result.Count);
+            Assert.AreEqual(5, result[0].TaskId);
+        }
+
+        [TestMethod]
+        public void CanGetOverdueUserTasksForNullList()
+        {
+            var c = new TaskHeaderController();
+            var result = c.GetOverdueUserTasks(null, "YOU");
+            Assert.IsNotNull(result);
         }
 
         #endregion

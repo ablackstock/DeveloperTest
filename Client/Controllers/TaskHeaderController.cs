@@ -31,7 +31,7 @@ using Client.Models;
 
 namespace Client.Controllers
 {
-    internal class TaskHeaderController
+    public class TaskHeaderController
     {
         #region Properties
 
