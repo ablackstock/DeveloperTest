@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{419200EC-397E-4BAE-A9F6-92D567375859}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFixtures", "TestFixtures\TestFixtures.csproj", "{FE6C2007-46F4-4619-9A35-8396F879718E}"
