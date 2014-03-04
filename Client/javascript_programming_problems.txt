@@ -1,0 +1,32 @@
+===============================
+JavaScript Programming Problems
+===============================
+
+These problems should be done in HTML, JavaScript, and CSS.  Use any 3rd-party
+libraries you want.  Use the text editor of your choice.
+
+1. FizzBuzz
+
+    - Write a web page that displays the numbers from 1 to 100...
+    - But for multiples of 3, display "Fizz" instead of the number
+    - For multiples of 5, display "Buzz" instead of the number
+    - For numbers which are multiples of both 3 and 5, display "FizzBuzz"
+
+3. TODO List
+
+    - Write a web page that allows the user to work with a basic TODO list
+    - The page should allow the user to type in a TODO list item and add it to
+      a list of items displayed on the page
+    - The page should allow the user to remove individual TODO list items
+    - The page should provide the ability to clear the entire list at once
+
+4. CSS
+
+    - Create an HTML page with 3 divs - each containing some filler text (e.g.
+      "lorem ipsum..." etc.)
+    - One div should float left and occupy about half the page width and should
+      have a blue background color
+    - Another div should float right and occupy about half the page width and
+      should have an orange background color
+    - The last div should sit below the other divs, fill about the full width
+      of the screen and should have a gray background color
